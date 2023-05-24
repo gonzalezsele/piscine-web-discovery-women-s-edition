@@ -1,0 +1,89 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* font-family: 'ABeeZee', sans-serif; */
+
+
+:root{
+
+    /* colors */
+
+    --background: pink;
+    --black: #1C2529;
+    --cream: #F5F5EF;
+
+}
+
+/* header init */
+
+body{
+    background-color: var(--background);
+}
+
+/* header end */
+
+/* main init */
+
+.tiendas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tienda{
+    width: 200px;
+    padding: 20px;
+}
+
+.tienda img{
+    width: 100%;
+    padding: 20px;
+}
+
+.tienda a{
+    font-family: 'ABeeZee', sans-serif;
+    color: var(--black);
+    text-decoration: none;
+    text-align: center;
+}
+
+.tienda a:hover{
+    color: var(--cream);
+}
+
+p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    color: #27272C;
+}
+
+/* main end */
+
+/* footer init */
+
+footer{
+    position: relative;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+p .copyright{
+    font-size: 0.7em;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+hr{
+    color: var(--black);
+}
+
+span{
+    font-weight: bold;
+}
+
+/* footer end */
