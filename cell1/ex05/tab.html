@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cellule1.5 - Tab</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .cols {
+        display: flex;
+        height: 200px;
+        }
+
+        .cols div {
+        flex: 1;
+        }
+
+        .col1 {
+        background-color: orange;
+        border: 1px solid black;    
+        align-items: center;
+        display: flex;
+        height: 100px;
+        justify-content: left;
+        width: 200px;
+        }
+
+        .col2 {
+        background-color: skyblue;
+        border: 1px solid black;   
+        align-items: center;
+        display: flex;
+        height: 100px;
+        justify-content: left;
+        width: 200px;
+        }
+
+        p {
+        margin: 1em;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="cols">
+        <div class="col1">
+            <p>First cell</p>
+        </div>
+        <div class="col2">
+            <p>Second cell</p>
+        </div>
+    </div>
+</body>
+
+</html>

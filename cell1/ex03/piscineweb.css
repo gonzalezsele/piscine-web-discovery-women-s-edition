@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: tomato;
+    margin: 20px;
+}
+
+div{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+img a{
+    max-width: 40%;
+    margin: 20px;
+    display: inline-block;
+    margin: auto;
+    padding: 1rem;
+}

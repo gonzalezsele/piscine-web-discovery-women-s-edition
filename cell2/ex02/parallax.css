@@ -1,0 +1,74 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* font-family: 'ABeeZee', sans-serif; */
+
+/* general*/
+
+html,
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+/* parallax init */
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    perspective: 3px;
+}
+
+section {
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #1C2529;
+    font-size: 50px;
+}
+
+p{
+    color: #F5F5EF;
+    font-size: 25px;
+}
+
+.parallax-bg{
+    background-position: center center;
+    transform: translateZ(-0.5px) scale(2);
+    background-size: cover;
+    z-index: -1;
+    height: 50vh;
+}
+
+.parallax-content{
+    z-index: -1;
+    transform: translateY(-25vh) translateZ(0px) scale(1);
+    padding-left:30px;
+    padding-right:30px;
+    text-align:center;
+}
+
+.no-parallax-section{
+    height: 50vh;
+}
+
+.no-parallax-content{
+    text-align:center;
+    padding:30px;
+}
+
+/* parallax end */
+
+/* background */
+
+.bg-1, .bg-2{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(234,38,255,1) 0%, rgba(0,212,255,1) 100%);
+}

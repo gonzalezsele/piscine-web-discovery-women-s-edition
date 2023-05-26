@@ -1,0 +1,32 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* font-family: 'ABeeZee', sans-serif; */
+
+.contentBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    display: block;
+    font-family: 'ABeeZee', sans-serif;
+    background-color: #000;
+    border: none;
+    color: lightgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: lightgrey;
+    color: #000;
+}

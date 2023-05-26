@@ -1,0 +1,53 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* font-family: 'ABeeZee', sans-serif; */
+
+.card {
+  font-family: 'ABeeZee', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  padding: 10px;
+}
+
+h2{
+  color: #000;
+  font-size: 18px;
+}
+
+.title {
+  color: grey;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #8c004b;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+i {
+  text-decoration: none;
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #deb1bf;
+  color: #000;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="balloon.css">
+    <title>Cellule3.1 - Balloon</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="circle"></div>
+    </div>
+
+
+    <script>
+
+        const circle = document.querySelector("div");
+
+        const changeSize = () => {
+            const hexVal = Math.floor(Math.random() * 100).toString(3);
+            document.body.style.size = `${hexVal}`;
+        }
+
+        div.addEventListener("click", changeSize);
+
+
+
+    </script>
+    
+</body>
+</html>
